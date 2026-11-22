@@ -1,0 +1,8 @@
+admin
+root
+user
+msfadmin
+ftp
+anonymous
+service
+postgres
