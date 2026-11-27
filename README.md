@@ -355,4 +355,6 @@ Ao assinar o guestbook com o payload, o código malicioso foi gravado no banco r
 
 ## 👤 Autor
 
-Projeto documentado e estruturado para o Desafio de Projeto da **DIO (Digital Innovation One)**.
+**th3-fuzzer**  
+Bootcamp Cibersegurança — Digital Innovation One (DIO)  
+[GitHub](https://github.com/th3-fuzzer)
